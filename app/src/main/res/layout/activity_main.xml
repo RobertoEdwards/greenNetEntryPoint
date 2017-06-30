@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enalasys.rcg.com.greennetentrypoint.MainActivity">
+
+    <ScrollView
+        android:background="@color/colorBackground"
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/applicant_address_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/applicant_address"
+                    android:layout_width="317dp"
+                    android:layout_height="41dp"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Applicant Address"
+                    android:textColorHint="@android:color/white"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/property_address_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/property_address"
+                    android:layout_width="311dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:hint="Enter the PROPERTY Address"
+                    android:textColorHint="@android:color/white"
+                    tools:layout_editor_absoluteY="68dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/owner_name_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/owner_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:hint="Enter the name of the owner"
+                    android:textColorHint="@android:color/white"
+                    tools:layout_editor_absoluteY="110dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/owner_phone_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/owner_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="phone"
+                    android:text=""
+                    android:hint="Enter the telephone # of the owner"
+                    tools:layout_editor_absoluteY="162dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/licensed_professional_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/licensed_professional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Enter the name of the Licensed Professional in charge"
+                    tools:layout_editor_absoluteY="10sp5dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/contractor_address_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/contractor_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:hint="Enter Contractor Address"
+                    android:text="Address"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="248dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/contractor_declaration_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/contractor_declaration"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textMultiLine"
+                    android:hint="Attach Contractor Declaration"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/license_class_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/license_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Enter the Contractor's License Class"
+                    tools:layout_editor_absoluteY="344dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/license_number_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/license_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Enter the Contractor's License Number"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="396dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/contractor_signature_date_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/contractor_signature_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Enter the Date the Application was signed"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="452dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/contractor_signature_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/contractor_signature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Contractor Signature"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="452dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/builder_declaration_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/builder_declaration"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:inputType="date"
+                    android:hint="Attach the Owner/Builder Declaration"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/builder_signature_date_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/builder_signature_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="date"
+                    android:hint="Owner/Builder Signature Date"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="396dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- OWNER SIGNATURE -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/builder_signature_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/builder_signature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Signature of Property Owner or Authorized Agent"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="452dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/worker_comp_declaration_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/worker_comp_declaration"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:inputType="textPersonName"
+                    android:hint="Attach Worker's Compensation Declaration"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/worker_comp_policy_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/worker_comp_policy"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Worker's Comp Policy Number"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- worker's compensation expiration -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/worker_comp_expiration_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/worker_comp_expiration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="date"
+                    android:hint="Worker's Comp Expiration Date"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="396dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/agent_name_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/agent_name"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Agent Name"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/agent_phone_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/agent_phone"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Agent Phone Number"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/applicant_signature_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/applicant_signature"
+                    android:layout_width="293dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:typeface="sans"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:hint="Signature of Applicant"
+                    tools:layout_editor_absoluteY="298dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/signature_pad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:penColor="@android:color/black"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ff00"
+                android:rowCount="2"
+                android:columnCount="2">
+
+                <ImageButton
+                    android:id="@+id/submitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:src="@mipmap/ic_go"
+                    android:text="Submit"/>
+
+                <ImageButton
+                    android:id="@+id/cancelButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:src="@mipmap/ic_stop"
+                    android:text="OK"/>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
